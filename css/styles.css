@@ -1,0 +1,190 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 1rem;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+.main-heading {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.container-fluid {
+  padding: 3% 15% 6%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.iphone-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.fas {
+  color: #ef8172;
+  font-size: 3.5rem;
+  padding-bottom: 1rem;
+}
+
+.fas:hover {
+  color: #ff4c68;
+}
+
+.feature-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.feature-div {
+  padding: 5%;
+  text-align: center;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+}
+
+.test-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-img {
+  width: 15%;
+  margin: 50px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.pricing-header {
+  text-align: center;
+}
+
+.pricing-div {
+  text-align: center;
+  margin: auto;
+  padding-top: 2%;
+}
+
+#pricing {
+  margin: 100px 0 100px 0;
+}
+
+.price-plans {
+  font-size: 2rem;
+}
+
+.single-price {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1208px) {
+  #title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1208px) {
+  .iphone-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.cta-header {
+  margin: 30px auto 15px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+
+.cta-download-button {
+  margin: 5% 2% 5% 0;
+}
+
+.cta-div {
+  padding-bottom: 50px;
+}
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+}
+
+.footer-icon {
+  color: #000;
+  margin: 5% 1% 2%;
+}
+
+.sign-up {
+  margin-top: 58px;
+}
